@@ -11,8 +11,8 @@ import LeftArrow from "../assets/images/left-arrow.png";
 const Sidebar = () => {
   return (
     <section>
-      <div className="w-full h-full">
-        <ul className="py-4 px-10 w-full md:w-[270px] h-auto bg-white shadow-lg mt-10 mr-20 mx-8 rounded-xl">
+      <div className="w-full absolute -mt-44 h-full">
+        <ul className="py-4 px-10 fixed w-full md:w-[270px] h-auto bg-white shadow-lg mt-10 mr-20 mx-8 rounded-xl">
           <div className="bg-white rounded-lg flex p-4">
             <div className="bg-slate-200 rounded-full w-7 h-7 mr-7 flex justify-center items-center">
               <img src={LeftArrow} alt="" />

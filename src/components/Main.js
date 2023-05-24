@@ -6,7 +6,7 @@ import Table from "../components/Table";
 const Main = () => {
   return (
     <div>
-      <div className="w-full bg-white h-full px-10 py-14">
+      <div className="absolute left-80 w-3/4 bg-white h-full px-10 py-14">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <h1 className="font-extrabold text-4xl mb-6 md:mb-0">
             Recurring Invoices

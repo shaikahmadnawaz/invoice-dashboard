@@ -9,8 +9,8 @@ const Home = () => {
       <div className="container mx-auto">
         <Header />
         <div className="flex flex-col md:flex-row">
-          <Sidebar />
-          <Main />
+          <Sidebar className="w-1/4" />
+          <Main className="w-3/4" />
         </div>
       </div>
     </main>
